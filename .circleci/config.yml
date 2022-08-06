@@ -26,7 +26,7 @@ jobs:
             docker tag udagram-api-feed patrickudoh/udagram-api-feed
 
             docker build -t udagram-api-user ./udagram-api-user
-            docker tag udagram-api-user patrickudoh/udagram-api-user
+            docker tag udagram-api-user patrickudoh/udagram-api-user:v1
             
             docker build -t udagram-frontend ./udagram-frontend
             docker tag udagram-frontend patrickudoh/udagram-frontend
@@ -43,7 +43,7 @@ jobs:
             echo "-------------- Pushing images to dockerhub-------"
 
             docker push patrickudoh/udagram-api-feed
-            docker push patrickudoh/udagram-api-user
+            docker push patrickudoh/udagram-api-user:v1
             docker push patrickudoh/udagram-frontend
             docker push patrickudoh/udagram-reverseproxy
 
