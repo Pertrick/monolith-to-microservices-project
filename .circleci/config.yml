@@ -44,7 +44,7 @@ jobs:
 
             docker push patrickudoh/udagram-api-feed
             docker push patrickudoh/udagram-api-user:v1
-            docker push patrickudoh/udagram-frontend
+            docker push patrickudoh/udagram-frontend:v1
             docker push patrickudoh/udagram-reverseproxy
 
 workflows:

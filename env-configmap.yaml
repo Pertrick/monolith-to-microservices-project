@@ -4,7 +4,7 @@ metadata:
   name: env-config
 data:
   POSTGRES_DB: postgres
-  POSTGRES_HOST: database-1.cgjecx9p7k8q.us-east-1.rds.amazonaws.comdatabase-1.cgjecx9p7k8q.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.cgjecx9p7k8q.us-east-1.rds.amazonaws.com
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   AWS_BUCKET: patrickudoh-bucket
