@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: docker.io/patrickudoh/udagram-frontend
+        image: docker.io/patrickudoh/udagram-frontend:v1
         ports:
         - containerPort: 80
         resources:
